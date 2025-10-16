@@ -2,6 +2,6 @@
 
 - 🔭 I like working on deep neural networks
 
-## How Insensitive by Stacy Kent
+## Astrud Gilberto - How Insensitive
 
-https://www.youtube.com/watch?v=vT9h4vUz7sQ
+https://www.youtube.com/watch?v=4x2i2GITQ0Y
