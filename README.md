@@ -2,7 +2,6 @@
 
 - 🔭 I like working on deep neural networks
 
-## Astrud Gilberto 
+## Bossa Nova Covers
 
-# How Insensitive - https://www.youtube.com/watch?v=4x2i2GITQ0Y
-# Once I Loved - https://www.youtube.com/watch?v=GeYsi9NDM9Y
+https://www.youtube.com/watch?v=opTGVhIyjYQ
