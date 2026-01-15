@@ -33,7 +33,7 @@ MagicPoint is currently scaling its enterprise platform on **Google Cloud**. We 
 
 * **🌐 Website:** [magicpoint.ai](https://magicpoint.ai/)
 * **📧 Contact:** [contact@magicpoint.ai](mailto:contact@magicpoint.ai)
-* **🚀 Status:** Building on Google Cloud for Startups
+* **🚀 Status:** Building on Google Cloud 
 
 ---
 
