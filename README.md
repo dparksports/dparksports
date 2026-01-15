@@ -7,7 +7,7 @@
 ### 🛠 Featured Solutions
 
 #### 🤖 [SystemMonitor](https://github.com/dparksports/SystemMonitor)
-An autonomous health agent that interprets system logs via **Gemini 1.5 Pro** to execute real-time self-healing protocols.
+An autonomous health agent that interprets system logs via **Gemini Pro** to execute real-time self-healing protocols.
 * **Core Tech:** Python, Google Gemini API, Linux System Telemetry.
 * **Key Feature:** Autonomous diagnostic reasoning and automated script execution.
 
