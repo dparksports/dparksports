@@ -1,41 +1,31 @@
-# 🚀 Magic Point | Autonomous AI Reliability & Security
+# Dan Park
+**Principal AI Research Engineer | SME Autonomous Systems **
 
-**Building the future of self-healing infrastructure.** At MagicPoint, we develop **Agentic AI Sentinels** that move beyond observability into autonomous action. Our agents don't just alert you to problems—they diagnose and fix them in real-time.
-
----
-
-### 🛠 Featured Solutions
-
-#### 🤖 [SystemMonitor](https://github.com/dparksports/SystemMonitor)
-An autonomous health agent that interprets system logs via **Gemini Pro** to execute real-time self-healing protocols.
-* **Core Tech:** Python, Google Gemini API, Linux System Telemetry.
-* **Key Feature:** Autonomous diagnostic reasoning and automated script execution.
-
-#### 🛡 [SecureFileMonitor](https://github.com/dparksports/SecureFileMonitor)
-An AI-driven security observer that monitors file integrity and autonomously classifies/neutralizes unauthorized changes.
-* **Core Tech:** Real-time kernel event monitoring & LLM-based threat classification.
-* **Key Feature:** Zero-latency detection of suspicious file system activity.
+I build autonomous, self-healing infrastructure systems. My current focus is MagicPoint: a platform that integrates native Windows C# applications with Gemini Pro to automate system reliability and security at the OS level.
 
 ---
 
-### 🧠 The Technology: Agentic AI Loop
+### 🚀 Core Projects
 
-We utilize a hybrid approach to infrastructure security:
-1.  **Local Ingestion:** Agents monitor telemetry at the edge for maximum security and speed.
-2.  **AI Reasoning:** We leverage **Google Gemini** on **Vertex AI** to analyze complex failure modes that traditional rules miss.
-3.  **Automated Remediation:** The system autonomously selects and validates the best repair path, closing the loop without human intervention.
+* **[SystemMonitor](https://github.com/dparksports/SystemMonitor)**: A native Windows C# agent for autonomous system health. It monitors telemetry and uses Gemini Pro to diagnose and execute self-healing protocols locally.
+* **[SecureFileMonitor](https://github.com/dparksports/SecureFileMonitor)**: A high-performance Windows security observer. It provides real-time file integrity monitoring and uses LLM-driven classification to identify and quarantine threats.
+
+### 🛠 Technical Background
+
+I specialize in the intersection of autonomous systems and high-stakes infrastructure.
+
+* **Procore Technologies**: Principal AI Research Engineer.
+* **Neo Cybernetica**: Autonomous AI Research Engineer.
+* **Magic Leap**: AI Research Engineer.
+
+### ⚡ Tech Stack
+
+* **Languages**: C# (Native Windows), Python, C++
+* **AI/ML**: Gemini Pro, Vertex AI, Autonomous Agent Architectures
 
 ---
 
-### 🤝 Partner With Us
-
-MagicPoint is currently scaling its enterprise platform on **Google Cloud**. We are open to technical partnerships, open-source contributors, and enterprise pilot programs.
-
-* **🌐 Website:** [magicpoint.ai](https://magicpoint.ai/)
-* **📧 Contact:** [contact@magicpoint.ai](mailto:contact@magicpoint.ai)
-* **🚀 Status:** Building on Open AI / Claude / Azure / Google
-
----
-
-### 📊 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=dparksports&show_icons=true&theme=tokyonight)
+### 🌐 Connect
+* **Founder**: [Magic Point](https://magicpoint.ai)
+* **Email**: contact@magicpoint.ai
+* **Status**: Scaling Magic Point on Google Cloud / Claude / Open AI / Azure
