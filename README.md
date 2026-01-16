@@ -1,6 +1,3 @@
-# Dan Park
-**Principal AI Research Engineer | SME Autonomous Systems **
-
 I build autonomous, self-healing infrastructure systems. My current focus is MagicPoint: a platform that integrates native Windows C# applications with Gemini Pro to automate system reliability and security at the OS level.
 
 ---
