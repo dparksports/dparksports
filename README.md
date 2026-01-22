@@ -26,11 +26,3 @@ I specialize in the intersection of autonomous systems and high-stakes infrastru
 * **Founder**: [Magic Point](https://magicpoint.ai)
 * **Email**: contact@magicpoint.ai
 * **Status**: Scaling Magic Point on Google Cloud / Claude / Open AI / Azure
-
----
-
-### 📢 Presentations
-
-[![Dynamic Runtime Remediation](presentation_preview.png)](https://htmlpreview.github.io/?https://github.com/dparksports/dparksports/blob/main/slides.html)
-
-* **[Dynamic Runtime Remediation](https://htmlpreview.github.io/?https://github.com/dparksports/dparksports/blob/main/slides.html)**: A deep dive into the philosophy and architecture of our autonomous agents.
