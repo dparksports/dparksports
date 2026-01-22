@@ -19,25 +19,24 @@
 
         body {
             background-color: #050505;
-            /* Deep Black Background */
-            display: grid;
-            gap: 20px;
-            grid-template-columns: 1fr;
+            display: flex;
+            /* Changed to flex for better centering */
+            justify-content: center;
+            align-items: center;
             margin: 0;
             min-height: 100vh;
-            padding: 20px 0;
-            place-items: center;
+            padding: 0;
             font-family: 'Urbanist', sans-serif;
+            overflow: hidden;
         }
 
         .slide-container {
+            display: none;
+            /* Hidden by default */
             align-items: center;
             background-color: #0a0a0a;
-            /* Slightly lighter black for card */
             border-radius: 16px;
             box-shadow: 0 0 40px rgba(0, 255, 65, 0.05);
-            /* Subtle green glow */
-            display: flex;
             flex-direction: column;
             height: 720px;
             justify-content: center;
@@ -46,6 +45,49 @@
             position: relative;
             width: 1280px;
             border: 1px solid #1a1a1a;
+        }
+
+        .slide-container.active {
+            display: flex;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.98);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        /* Navigation Controls */
+        .nav-controls {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+            z-index: 100;
+        }
+
+        .nav-btn {
+            background: rgba(20, 20, 20, 0.8);
+            border: 1px solid #333;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Urbanist', sans-serif;
+            transition: all 0.2s;
+        }
+
+        .nav-btn:hover {
+            background: #00ff41;
+            color: #000;
         }
 
         /* 1.1 BACKGROUND STYLING (Abstract shapes) */
@@ -738,7 +780,61 @@
             // Scroll to bottom
             element.scrollTop = element.scrollHeight;
         }
+
+        // --- Slideshow Logic ---
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide-container');
+        const totalSlides = slides.length;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                if (i === index) {
+                    slide.classList.add('active');
+                }
+            });
+
+            // Update URL hash for sharing specific slides
+            window.location.hash = `slide-${index + 1}`;
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            showSlide(currentSlide);
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            // Check for hash
+            const hash = window.location.hash;
+            if (hash && hash.startsWith('#slide-')) {
+                const index = parseInt(hash.replace('#slide-', '')) - 1;
+                if (index >= 0 && index < totalSlides) {
+                    currentSlide = index;
+                }
+            }
+            showSlide(currentSlide);
+        });
+
+        // Keyboard Navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === 'Space') {
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                prevSlide();
+            }
+        });
     </script>
+
+    <div class="nav-controls">
+        <button class="nav-btn" onclick="prevSlide()"><i class="fa-solid fa-arrow-left"></i> Prev</button>
+        <button class="nav-btn" onclick="nextSlide()">Next <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
 
 </body>
 

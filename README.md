@@ -31,6 +31,6 @@ I specialize in the intersection of autonomous systems and high-stakes infrastru
 
 ### 📢 Presentations
 
-[![Dynamic Runtime Remediation](presentation_preview.png)](slides.html)
+[![Dynamic Runtime Remediation](presentation_preview.png)](https://htmlpreview.github.io/?https://github.com/dparksports/dparksports/blob/main/slides.html)
 
-* **[Dynamic Runtime Remediation](slides.html)**: A deep dive into the philosophy and architecture of our autonomous agents.
+* **[Dynamic Runtime Remediation](https://htmlpreview.github.io/?https://github.com/dparksports/dparksports/blob/main/slides.html)**: A deep dive into the philosophy and architecture of our autonomous agents.
