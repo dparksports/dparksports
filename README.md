@@ -11,8 +11,8 @@ I build autonomous, self-healing infrastructure systems. My current focus is Mag
 
 I specialize in the intersection of autonomous systems and high-stakes infrastructure.
 
-* **Procore Technologies**: Principal AI Research Engineer.
 * **Neo Cybernetica**: Autonomous AI Research Engineer.
+* **Procore Technologies**: Principal AI Research Engineer.
 * **Magic Leap**: AI Research Engineer.
 
 ### ⚡ Tech Stack
