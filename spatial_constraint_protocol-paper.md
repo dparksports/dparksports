@@ -6,7 +6,6 @@ title: Research Paper
 # Spatial Constraint Protocol: Escaping the Foggy Boundary via Direct Latent Space Mapping
 
 **Author**: Dan Park (dpark@magicpoint.ai)  
-**Assistance**: Google Gemini  
 **Date**: February 12, 2026
 
 ## Abstract
@@ -147,3 +146,4 @@ The "Billion Token" future is a trap of diminishing returns. To build complex, r
 
 ---
 *Correspondence: dpark@magicpoint.ai*
+
