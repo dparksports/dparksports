@@ -1,6 +1,3 @@
-# Dan Park
-
-### Researcher & Founder @ [MagicPoint.ai](https://magicpoint.ai)
 **Focus:** Large Language Model Architecture, Latent Space Mapping, High-Performance Computing (C#/CUDA).
 
 ---
