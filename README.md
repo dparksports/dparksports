@@ -30,7 +30,7 @@ In our case study of a native Windows application (C#/Python/CUDA), we compared 
 ### 🧠 Core Concepts
 
 * **The Foggy Boundary:** The mathematical divergence where $E_{verify} \gg E_{feature}$ as context expands.
-* **Luwa Anchoring:** Using rare Unicode tokens (e.g., 𓀀, 𓀁, 𓀂) to lock Latent State and prevent attention drift.
+* **Luwa Anchoring:** Using high dimensional tokens (e.g., 𓀀, 𓀁, 𓀂) to lock Latent State and prevent attention drift.
 * **Fractal Independence:** Ensuring Module A modification cannot semantically impact Module B via hidden context dependencies.
 
 ```mermaid
