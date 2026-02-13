@@ -1,4 +1,4 @@
-**Focus:** Large Language Model Architecture, Latent Space Mapping, High-Performance Computing (C#/CUDA).
+**Focus:** Large Language Model Architecture, Latent Space Mapping, High-Performance Computing.
 
 ---
 
