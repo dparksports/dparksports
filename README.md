@@ -49,9 +49,8 @@ SCP is a neuro-symbolic architecture that replaces probabilistic tokenization wi
 
 ---
 
-## ⚡ Tech Stack & Interests
+## ⚡ Reearch Interests
 
-* **Languages:** C#, Python, Uiua, CUDA, C++.
 * **Research Areas:** Neuro-Symbolic Architectures, Entropy-Adaptive Fine-Tuning, Forgetting Transformers.
 * **Concepts:** Tacit Programming, Rank Polymorphism, Semantic Rate-Distortion Theory.
 
