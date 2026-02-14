@@ -1,5 +1,3 @@
-# Dan Park
-
 **Founder & Lead Architect @ MagicPoint.ai**
 *Researching the Thermodynamic Limits of the Attention Mechanism*
 
