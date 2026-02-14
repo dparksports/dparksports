@@ -10,7 +10,7 @@ My latest research challenges the industry's obsession with "Infinite Context Wi
 
 I am developing the **Spatial Constraint Protocol (SCP)**, a novel architecture that abandons raw token-based context in favor of **Direct Latent Space Mapping**. By using high dimensional symbols as high-entropy semantic anchors, we enforce "Fractal Independence" in code generation.
 
-### 📄 [Read the Research Paper (Draft)](https://github.com/dparksports/dparksports/blob/main/spatial_constraint_protocol-draft.pdf)
+### 📄 [Read the Research Paper (Expanded Draft)](https://github.com/dparksports/dparksports/blob/main/spatial_constraint_protocol-draft-expanded.pdf)
 
 ---
 
