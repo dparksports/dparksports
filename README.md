@@ -1,62 +1,31 @@
-**Founder & Lead Architect @ MagicPoint.ai**
-<br>
-*Researching the Thermodynamic Limits of the Attention Mechanism*
+# Hi, I'm Dan Park 👋
 
-> 🔭 **Current Focus:** Solving "Regression Hell" and the "Foggy Boundary" in Large Language Models via Direct Latent Space Mapping.
+**AI Engineer & Founder at [MagicPoint.ai](https://magicpoint.ai)**
 
-I am an AI Research Engineer and the author of the **Spatial Constraint Protocol (SCP)**. My work challenges the industry's "Context Wars" by identifying the **Billion Token Fallacy**: the erroneous assumption that expanding token windows equates to qualitative reasoning improvements.
+I build tools that stop AI from breaking your code. 
 
-My research demonstrates that high-dimensional engineering contexts inevitably hit a "Foggy Boundary"—a thermodynamic threshold where the Signal-to-Noise Ratio (SNR) of the Transformer attention mechanism degrades due to entropy.
+Right now, the standard approach to AI code generation is to dump massive codebases into a massive context window and hope the LLM understands it. But as context grows, the AI gets confused, loses focus, and introduces silent bugs (what I call the "Foggy Boundary"). 
 
----
+I am building an alternative: **neuro-symbolic architectures** that force AI to write reliable, verifiable code. 
 
-## 📄 Featured Research: Spatial Constraint Protocol (SCP)
+### 🚀 What I'm Building
 
-**Paper:** *Spatial Constraint Protocol: An Analysis of Latent Space Stability and the Resolution of High-Dimensional Regression in Post-Transformer Architectures*
-<br>
-**Date:** February 14, 2026 (Expanded Edition)
-<br>
-**Link:** [Download Paper (PDF)](https://github.com/dparksports/dparksports/blob/main/spatial_constraint_protocol-draft-expanded.pdf)
+#### ◬ [Nexus: The AI IDE That Won't Break Your Code](https://github.com/dparksports/Project-Chevron)
+Nexus is a next-generation development environment. Instead of feeding an LLM your entire project at once, Nexus forces the AI to build software **one isolated module at a time**. 
+* **Auto-Decomposition:** It scans your messy, monolithic codebase and breaks it down into strict, logical modules.
+* **Deterministic Verification:** Before any AI-generated code is accepted, a secondary "Weaver" system uses standard AST parsing to guarantee the AI hasn't hallucinated any hidden dependencies.
 
-### The Problem: Regression Hell
-[cite_start]In high-stakes engineering environments, standard LLMs suffer from **Regression Hell**, where the energy required to verify AI-generated code exceeds the energy required to write features ($E_{verify} \gg E_{feature}$), reducing velocity to zero[cite: 60].
+#### ⚙️ [Project Chevron (Spatial Constraint Protocol)](https://github.com/dparksports/Project-Chevron)
+The open-source engine powering Nexus. To get LLMs to stop hallucinating, Chevron replaces conversational English prompts with a custom DSL based on mathematical symbols (Uiua). 
+* **The Result:** We compress what used to take 100,000+ tokens of context into about 700 tokens of pure architectural signal. 
+* **The Impact:** In early testing, this approach reduced AI-introduced code regressions from **14.3% down to <0.1%**. 
 
-### The Solution: Direct Latent Space Mapping
-SCP is a neuro-symbolic architecture that replaces probabilistic tokenization with **Uiua** bijective primitives ($f: \mathcal{L} \rightarrow V_L$). By mapping logic directly to the model's latent space, we achieve:
-* [cite_start]**Fractal Independence:** Global stability achieved via local coherence, driving emergent coupling terms to zero [cite: 114-118].
-* [cite_start]**Zero Semantic Distortion:** Information-theoretic completeness proved via Semantic Rate-Distortion Theory[cite: 103].
-* [cite_start]**The Weaver:** A monitoring function that detects undeclared coupling as an immune response[cite: 133].
+📄 **Want the deep technical dive?** Read the whitepaper: [*The Partition Function Explosion: An Energy-Based Analysis of Attention Decay*](https://github.com/dparksports/dparksports/raw/main/SCP%20II%20-%20Neuro-Symbolic%20Resolution.pdf).
 
-### Empirical Results (Native Windows/CUDA Case Study)
-| Metric | Baseline (Standard GPT-4) | SCP Implementation |
-| :--- | :--- | :--- |
-| **Context** | 128k tokens (saturated) | 1,200 atomic vectors (106x compression) |
-| **Regression Rate** | 14.3% per commit | **<0.1% per commit** |
-| **Feature Velocity** | 0% (Stalled) | **100% (Restored)** |
-| **Semantic Entropy** | Foggy ($H(S) > C_a$) | Clear ($H(S) < C_a$) |
-[cite_start][cite: 139]
+### 🛠️ What I Work With
+* **AI & LLMs:** Gemini, Claude, GPT, Local Models, Agentic Workflows, Prompt Engineering
+* **Concepts:** Static Analysis (AST), Information Theory, Rejection Sampling, Neuro-Symbolic AI
 
----
-
-## 🛠 Project Chevron
-**Status:** *Active Development*
-
-**Project Chevron** is the reference implementation of SCP. [cite_start]It is designed to validate the scalability of Uiua-based latent space programming in production engineering environments[cite: 151].
-
-* **Core:** Native Windows (C#), CUDA, Python.
-* **Interface:** Uiua (Stack-based array language with rank polymorphism).
-* **Goal:** To serve as the first working instance of Uiua-based latent space programming.
-
----
-
-## ⚡ Reearch Interests
-
-* **Research Areas:** Neuro-Symbolic Architectures, Entropy-Adaptive Fine-Tuning, Forgetting Transformers.
-* **Concepts:** Tacit Programming, Rank Polymorphism, Semantic Rate-Distortion Theory.
-
----
-
-## 🌐 Connect
-
-* **Email:** dpark@magicpoint.ai
-* **Organization:** [MagicPoint.ai](https://magicpoint.ai)
+### 📫 Let's Connect
+If you're interested in making AI coding agents actually reliable, building deterministic AI workflows, or just want to talk about the limits of LLM attention, I'd love to connect.
+* **Website:** [MagicPoint.ai](https://magicpoint.ai)
