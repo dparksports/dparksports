@@ -16,7 +16,7 @@ Nexus is a next-generation development environment. Instead of feeding an LLM yo
 * **Deterministic Verification:** Before any AI-generated code is accepted, a secondary "Weaver" system uses standard AST parsing to guarantee the AI hasn't hallucinated any hidden dependencies.
 
 #### ⚙️ [Project Chevron (Spatial Constraint Protocol)](https://github.com/dparksports/Project-Chevron)
-The open-source engine powering Nexus. To get LLMs to stop hallucinating, Chevron replaces conversational English prompts with a custom DSL based on mathematical symbols (Uiua). 
+The open-source engine powering Nexus. To get LLMs to stop hallucinating, Chevron replaces conversational English prompts with a custom DSL based on mathematical symbols. 
 * **The Result:** We compress what used to take 100,000+ tokens of context into about 700 tokens of pure architectural signal. 
 * **The Impact:** In early testing, this approach reduced AI-introduced code regressions from **14.3% down to <0.1%**. 
 
