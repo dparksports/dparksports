@@ -23,7 +23,7 @@ The open-source engine powering Nexus. To get LLMs to stop hallucinating, Chevro
 📄 **Want the deep technical dive?** Read the paper: [*The Partition Function Explosion: An Energy-Based Analysis of Attention Decay*](https://github.com/dparksports/dparksports/raw/main/SCP%20II%20-%20Neuro-Symbolic%20Resolution.pdf).
 
 ### 🛠️ What I Work With
-* **AI & LLMs:** Gemini, Claude, GPT, Local Models, Agentic Workflows, Prompt Engineering
+* **AI & LLMs:** Gemini, Claude, GPT, Local Models, Agentic Workflows, Context Engineering
 * **Concepts:** Static Analysis (AST), Information Theory, Rejection Sampling, Neuro-Symbolic AI
 
 ### 📫 Let's Connect
