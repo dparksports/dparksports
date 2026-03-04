@@ -20,7 +20,7 @@ The open-source engine powering Nexus. To get LLMs to stop hallucinating, Chevro
 * **The Result:** We compress what used to take 100,000+ tokens of context into about 700 tokens of pure architectural signal. 
 * **The Impact:** In early testing, this approach reduced AI-introduced code regressions from **14.3% down to <0.1%**. 
 
-📄 **Want the deep technical dive?** Read the paper: [*The Partition Function Explosion: An Energy-Based Analysis of Attention Decay*](https://github.com/dparksports/dparksports/raw/main/The%20Partition%20Function%20Explosion.pdf).
+📄 **Want the deep technical dive?** Read the paper: [*The Partition Function Explosion: An Energy-Based Analysis of Attention Decay*](https://github.com/dparksports/dparksports/raw/main/Holographic-AI-Language-v19.pdf).
 
 ### 🛠️ What I Work With
 * **AI & LLMs:** Gemini, Claude, GPT, Local Models, Agentic Workflows, Context Engineering
