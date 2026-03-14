@@ -1,6 +1,6 @@
 # Dan Park
 
-**ASI Systems Architect** · Building deterministic reasoning substrates for neural networks <br>
+Building deterministic reasoning substrates for neural networks <br>
 **Founder** @ [magicpoint.ai](https://magicpoint.ai) · [LinkedIn](https://www.linkedin.com/in/dparksports)
 
 ---
@@ -34,7 +34,7 @@ The framework replaces this with:
 
 ## Technical Stack
 
-`PyTorch` · `Triton` · `HuggingFace Transformers` · `Unsloth` · `CUDA / BF16` · `NVIDIA DGX SPARK`
+`PyTorch` · `Triton` · `HuggingFace Transformers` · `Unsloth` · `CUDA / BF16` 
 
 ---
 
