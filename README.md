@@ -1,31 +1,41 @@
-# Hi, I'm Dan Park 👋
+# Dan Park
 
-**AI Engineer & Founder at [MagicPoint.ai](https://magicpoint.ai)**
+**ASI Systems Architect** · Building deterministic reasoning substrates for neural networks <br>
+**Founder** @ [magicpoint.ai](https://magicpoint.ai) · [LinkedIn](https://www.linkedin.com/in/dparksports)
 
-I build tools that stop AI from breaking your code. 
+---
 
-Right now, the standard approach to AI code generation is to dump massive codebases into a massive context window and hope the LLM understands it. But as context grows, the AI gets confused, loses focus, and introduces silent bugs (what I call the "Foggy Boundary"). 
+## Current Research
 
-I am building an alternative: **neuro-symbolic architectures** that force AI to write reliable, verifiable code. 
+### [The Holographic Language Framework](https://github.com/dparksports/Holographic-Language-for-AI)
 
-### 🚀 What I'm Building
+Engineering a mathematically rigorous alternative to brute-force context scaling in Large Language Models.
 
-#### ◬ [Nexus: The AI IDE That Won't Break Your Code](https://github.com/dparksports/Project-Chevron)
-Nexus is a next-generation development environment. Instead of feeding an LLM your entire project at once, Nexus forces the AI to build software **one isolated module at a time**. 
-* **Auto-Decomposition:** It scans your messy, monolithic codebase and breaks it down into strict, logical modules.
-* **Deterministic Verification:** Before any AI-generated code is accepted, a secondary "Weaver" system uses standard AST parsing to guarantee the AI hasn't hallucinated any hidden dependencies.
+The core thesis: probabilistic natural-language tokens are geometrically hostile to exact logical reasoning at scale. The softmax partition function inflates logarithmically with sequence length, and the Welch Bound guarantees that millions of semantic vectors packed into ~12K dimensions will bleed into each other — a problem I call **Adversarial Polysemy**.
 
-#### ⚙️ [Project Chevron (Spatial Constraint Protocol)](https://github.com/dparksports/Project-Chevron)
-The open-source engine powering Nexus. To get LLMs to stop hallucinating, Chevron replaces conversational English prompts with a custom DSL based on mathematical symbols. 
-* **The Result:** We compress what used to take 100,000+ tokens of context into about 700 tokens of pure architectural signal. 
-* **The Impact:** In early testing, this approach reduced AI-introduced code regressions from **14.3% down to <0.1%**. 
+The framework replaces this with:
 
-📄 **Want the deep technical dive?** Read the paper: [*The Holographic Language*](https://github.com/dparksports/dparksports/raw/main/Holographic-AI-Language-v19.pdf).
+- **Vector Symbolic Architectures (VSA)** — O(d) algebraic bind/unbind in complex frequency space via FHRR
+- **Orthogonal Embedding Surgery** — Gram-Schmidt isolation of logic primitives from semantic noise
+- **Continuous Hopfield Cleanup** — Error-correcting attractor network that snaps drifting vectors to pristine anchors
+- **Deterministic Logit Masking** — AST-constrained token selection via Context-Free Grammar enforcement
 
-### 🛠️ What I Work With
-* **AI & LLMs:** Gemini, Claude, GPT, Local Models, Agentic Workflows, Context Engineering
-* **Concepts:** Static Analysis (AST), Information Theory, Rejection Sampling, Neuro-Symbolic AI
+📄 **[Read the Paper (PDF)](https://github.com/dparksports/dparksports/raw/main/Holographic-AI-Language-v19.pdf)**
 
-### 📫 Let's Connect
-If you're interested in making AI coding agents actually reliable, building deterministic AI workflows, or just want to talk about the limits of LLM attention, I'd love to connect.
-* **Website:** [MagicPoint.ai](https://magicpoint.ai)
+### Key Metrics
+
+| | Standard English Tokens | Orthogonal Logic Anchors |
+|---|---|---|
+| **Participation Ratio** | 94.34 (diffuse/overlapping) | 31.93 (point-mass) |
+| **1,000-step Hopfield Cleanup** | ~0.04 cosine drift | >0.999 cosine fidelity |
+| **Binding Complexity** | O(N·d) attention | O(d) element-wise |
+
+---
+
+## Technical Stack
+
+`PyTorch` · `Triton` · `HuggingFace Transformers` · `Unsloth` · `CUDA / BF16` · `NVIDIA RTX 5090`
+
+---
+
+*Building Holographic Language for AI with ❤️ in California.*
