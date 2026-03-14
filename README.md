@@ -34,7 +34,7 @@ The framework replaces this with:
 
 ## Technical Stack
 
-`PyTorch` · `Triton` · `HuggingFace Transformers` · `Unsloth` · `CUDA / BF16` · `NVIDIA RTX 5090`
+`PyTorch` · `Triton` · `HuggingFace Transformers` · `Unsloth` · `CUDA / BF16` · `NVIDIA DGX SPARK`
 
 ---
 
