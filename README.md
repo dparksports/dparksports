@@ -1,7 +1,7 @@
 # Dan Park
 
 Building deterministic reasoning substrates for neural networks <br>
-**Founder** @ [magicpoint.ai](https://magicpoint.ai) · [LinkedIn](https://www.linkedin.com/in/dparksports) · [For You](https://youtu.be/zaQrDtpAy6A?si=WFD97yT_nkha9o-v)
+**Founder** @ [magicpoint.ai](https://magicpoint.ai) · [LinkedIn](https://www.linkedin.com/in/dparksports)
 
 ---
 
