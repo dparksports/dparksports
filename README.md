@@ -32,10 +32,4 @@ The framework replaces this with:
 
 ---
 
-## Technical Stack
-
-`PyTorch` · `Triton` · `HuggingFace Transformers` · `Unsloth` · `CUDA / BF16` 
-
----
-
 *Building Holographic Language for AI with ❤️ in California.*
